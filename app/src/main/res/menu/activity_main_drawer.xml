@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_myprofile"
+        android:icon="@drawable/ic_my_profile_icon"
+        android:title="My Profile" />
+
+    <item
+        android:id="@+id/nav_address"
+        android:icon="@drawable/ic_address_icon"
+        android:title="My Address" />
+
+    <item
+        android:id="@+id/nav_password"
+        android:icon="@drawable/ic_changed_password_icon"
+        android:title="Change Password" />
+
+    <item
+        android:id="@+id/nav_mycoins"
+        android:icon="@drawable/ic_my_coin_icon"
+        android:title="My Coin" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout_icon"
+        android:title="Log out" />
+</menu>

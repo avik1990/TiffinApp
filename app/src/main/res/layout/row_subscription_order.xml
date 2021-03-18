@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:background="@drawable/white_border_solid"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvConisDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="@dimen/_15sdp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnSubscribe"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/subscribe_btn" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
